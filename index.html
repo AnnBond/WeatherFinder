@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <form class="weatherForm">
+            <input type="text" class="cityName" >
+            <input type="button" class="submit" value="Search">
+        </form> 
+        <div class="timeBlock">
+            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+            <span class="time"></span>
+        </div>
+        <div id="map"></div>
+        <div class="infoBox">
+            <h1 class="city"></h1>
+            <p class="temp"></p>
+            <img class="weatherIcon" src=""></p>
+            <p class="weather"></p>
+            <p class="wind"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhrrcQb_k3UmLvUXpSNAVnYeOcx2Rh8bI&callback=initMap"></script>
+</body>
+</html>

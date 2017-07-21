@@ -1,0 +1,44 @@
+.wrapper {
+    height: 600px;
+    margin-left: 20%;
+}
+
+#map {
+    float: left;
+    width: 400px;
+    height: 400px;
+    overflow: visible;
+}
+
+.infoBox {
+    float:left;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    background: purple;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.weatherForm {
+    display: inline-block;
+   width: 740px;
+   margin:15px 0;
+}
+
+.cityName { width: 670px; }
+
+input {
+    padding: 5px;
+    border: none;
+    background: purple;
+    color: white;
+}
+
+.timeBlock {
+    display: inline-block;
+    padding: 4px 10px;
+    color: white;
+    background: purple;
+}
